@@ -63,8 +63,8 @@ class MainWindow(Adw.ApplicationWindow):
         menu_button = Gtk.MenuButton()
         menu_button.set_icon_name("open-menu-symbolic")
         menu_model = Gio.Menu()
-        menu_model.append(_("Om PronounceIt"), "app.about")
-        menu_model.append(_("Avsluta"), "app.quit")
+        menu_model.append(_("About PronounceIt"), "app.about")
+        menu_model.append(_("Quit"), "app.quit")
         menu_button.set_menu_model(menu_model)
         header.pack_end(menu_button)
 
@@ -101,7 +101,7 @@ class MainWindow(Adw.ApplicationWindow):
         practice_box.set_margin_bottom(8)
 
         # Word display
-        self.word_label = Gtk.Label(label=_("Välj ett ord från ordlistan"))
+        self.word_label = Gtk.Label(label=_("Select ett ord från ordlistan"))
         self.word_label.add_css_class("title-1")
         practice_box.append(self.word_label)
 

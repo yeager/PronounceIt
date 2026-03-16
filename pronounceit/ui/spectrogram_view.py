@@ -38,11 +38,11 @@ class SpectrogramView(Gtk.Box):
             ax.title.set_color("white")
 
         self.ax_ref.set_title(_("Referens"), fontsize=10)
-        self.ax_ref.set_xlabel(_("Tid (s)"), fontsize=8)
+        self.ax_ref.set_xlabel(_("Time (s)"), fontsize=8)
         self.ax_ref.set_ylabel(_("Frekvens (Hz)"), fontsize=8)
 
         self.ax_user.set_title(_("Din inspelning"), fontsize=10)
-        self.ax_user.set_xlabel(_("Tid (s)"), fontsize=8)
+        self.ax_user.set_xlabel(_("Time (s)"), fontsize=8)
         self.ax_user.set_ylabel(_("Frekvens (Hz)"), fontsize=8)
 
         self.canvas = FigureCanvasGTK4Agg(self.fig)
@@ -60,7 +60,7 @@ class SpectrogramView(Gtk.Box):
             f"{_('Referens')}: {title}" if title else _("Referens"),
             fontsize=10, color="white",
         )
-        self.ax_ref.set_xlabel(_("Tid (s)"), fontsize=8, color="white")
+        self.ax_ref.set_xlabel(_("Time (s)"), fontsize=8, color="white")
         self.ax_ref.set_ylabel(_("Frekvens (Hz)"), fontsize=8, color="white")
         self.ax_ref.tick_params(colors="white", labelsize=7)
 
@@ -84,7 +84,7 @@ class SpectrogramView(Gtk.Box):
             title or _("Din inspelning"),
             fontsize=10, color="white",
         )
-        self.ax_user.set_xlabel(_("Tid (s)"), fontsize=8, color="white")
+        self.ax_user.set_xlabel(_("Time (s)"), fontsize=8, color="white")
         self.ax_user.set_ylabel(_("Frekvens (Hz)"), fontsize=8, color="white")
         self.ax_user.tick_params(colors="white", labelsize=7)
 

@@ -48,7 +48,7 @@ class RecordingView(Gtk.Box):
         button_box.append(self.record_btn)
 
         # Stop button
-        self.stop_btn = Gtk.Button(label=_("Stoppa"))
+        self.stop_btn = Gtk.Button(label=_("Stop"))
         self.stop_btn.add_css_class("destructive-action")
         self.stop_btn.add_css_class("pill")
         self.stop_btn.set_size_request(140, 48)
@@ -58,7 +58,7 @@ class RecordingView(Gtk.Box):
         self.append(button_box)
 
         # Status label
-        self.status_label = Gtk.Label(label=_("Tryck på 'Spela in' för att börja"))
+        self.status_label = Gtk.Label(label=_("Tryck på \'Spela in\' för att börja"))
         self.status_label.add_css_class("dim-label")
         self.append(self.status_label)
 

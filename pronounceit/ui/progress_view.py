@@ -74,7 +74,7 @@ class ProgressView(Gtk.Box):
         self.append(self.canvas)
 
         # Refresh button
-        refresh_btn = Gtk.Button(label=_("Uppdatera"))
+        refresh_btn = Gtk.Button(label=_("Update"))
         refresh_btn.set_halign(Gtk.Align.CENTER)
         refresh_btn.connect("clicked", lambda btn: self.refresh())
         self.append(refresh_btn)

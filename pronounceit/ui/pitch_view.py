@@ -30,7 +30,7 @@ class PitchView(Gtk.Box):
         self.fig.subplots_adjust(left=0.06, right=0.98, top=0.85, bottom=0.2)
         self.ax.set_facecolor("#1e1e24")
         self.ax.set_title(_("Tonhöjdskontur (F0)"), fontsize=10, color="white")
-        self.ax.set_xlabel(_("Tid (s)"), fontsize=8, color="white")
+        self.ax.set_xlabel(_("Time (s)"), fontsize=8, color="white")
         self.ax.set_ylabel(_("Hz"), fontsize=8, color="white")
         self.ax.tick_params(colors="white", labelsize=7)
 
@@ -46,7 +46,7 @@ class PitchView(Gtk.Box):
         self.ax.clear()
         self.ax.set_facecolor("#1e1e24")
         self.ax.set_title(_("Tonhöjdskontur (F0)"), fontsize=10, color="white")
-        self.ax.set_xlabel(_("Tid (s)"), fontsize=8, color="white")
+        self.ax.set_xlabel(_("Time (s)"), fontsize=8, color="white")
         self.ax.set_ylabel(_("Hz"), fontsize=8, color="white")
         self.ax.tick_params(colors="white", labelsize=7)
 

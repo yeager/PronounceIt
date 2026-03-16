@@ -76,7 +76,7 @@ class FeedbackGenerator:
     def _overall_feedback(self, total_score):
         """Generera övergripande bedömning."""
         if total_score >= 90:
-            return _("Utmärkt! Ditt uttal är mycket nära referensen. Bra jobbat!")
+            return _("Utmärkt! Ditt uttal är mycket nära referensen. Well done!")
         elif total_score >= 75:
             return _("Bra uttal! Några små justeringar kan göra det ännu bättre.")
         elif total_score >= 60:

@@ -79,7 +79,7 @@ class WordBrowserView(Gtk.Box):
 
         # Search
         self.search_entry = Gtk.SearchEntry()
-        self.search_entry.set_placeholder_text(_("Sök ord..."))
+        self.search_entry.set_placeholder_text(_("Search ord..."))
         self.search_entry.set_hexpand(True)
         self.search_entry.connect("search-changed", self._on_search_changed)
         filter_box.append(self.search_entry)
