@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pronounceit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:47+0100\n"
+"POT-Creation-Date: 2026-03-16 12:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,77 +193,75 @@ msgstr ""
 
 #: pronounceit/scoring/feedback.py:31
 msgid ""
-"Spektral analys visar att ljudet skiljer sig från referensen. Försök lyssna "
-"noga på referensen och imitera."
+"Spectral analysis shows that the sound is different from the reference. Try "
+"to listen carefully to the reference and imitate."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:36
+#: pronounceit/scoring/feedback.py:35
 msgid ""
-"Ljudet är nära referensen men kan förbättras. Fokusera på artikulationens "
-"precision."
+"The sound is close to the reference but can be improved. Focus on the "
+"precision of articulation."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:43
+#: pronounceit/scoring/feedback.py:41
 msgid ""
-"Tonhöjdsmönstret avviker markant. Var uppmärksam på intonationen och "
-"betoningen."
+"The pitch pattern differs markedly. Pay attention to intonation and stress."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:48
-msgid "Intonationen kan förbättras. Lyssna på melodin i referensuttalet."
+#: pronounceit/scoring/feedback.py:45
+msgid "Intonation can be improved. Lyssna på melodin i referensuttalet."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:55
-msgid "Vokalerna behöver justeras. Kontrollera tungans och läpparnas position."
-msgstr ""
-
-#: pronounceit/scoring/feedback.py:60
+#: pronounceit/scoring/feedback.py:52
 msgid ""
-"Vokalerna är nära men kan finslipas. Tänk på munöppning och tungposition."
+"The vowels need to be adjusted. Kontrollera tungans och läpparnas position."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:79
+#: pronounceit/scoring/feedback.py:57
+msgid ""
+"The vowels are close but can be refined. Tänk på munöppning och tungposition."
+msgstr ""
+
+#: pronounceit/scoring/feedback.py:76
 msgid ""
 "Excellent! Your pronunciation is very close to the reference. Well done!"
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:81
+#: pronounceit/scoring/feedback.py:78
 msgid "Good pronunciation! A few small adjustments can make it even better."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:83
+#: pronounceit/scoring/feedback.py:80
 msgid "Approved pronunciation. Keep practicing to improve accuracy."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:85
+#: pronounceit/scoring/feedback.py:82
 msgid ""
 "Pronunciation needs more practice. Listen carefully to the reference and try "
 "again."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:87
+#: pronounceit/scoring/feedback.py:84
 msgid "Try it again! Listen to the reference and focus on one sound at a time."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:104
-msgid ""
-"Svenska har många vokaler. Tänk särskilt på skillnaden mellan lång och kort "
-"vokal, t.ex. 'hus' /hʉːs/ vs 'huss' /hɵs/."
+#: pronounceit/scoring/feedback.py:101
+msgid "Swedish has many vowels. e.g. 'hus' /hʉːs/ vs 'huss' /hɵs/."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:110
+#: pronounceit/scoring/feedback.py:105
 msgid ""
 "Svenskan har ordaccenter (accent 1 och accent 2). Tonhöjdsmönstret är "
 "viktigt för ordets betydelse."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:119
+#: pronounceit/scoring/feedback.py:114
 msgid ""
 "Tyska vokaler har tydlig skillnad mellan spända och ospända. T.ex. /iː/ i "
 "'Miete' vs /ɪ/ i 'Mitte'."
 msgstr ""
 
-#: pronounceit/scoring/feedback.py:128
+#: pronounceit/scoring/feedback.py:123
 msgid ""
 "Franska nasalvokaler kräver att luft släpps genom näsan. Öva med /ɑ̃/ i "
 "'dans' och /ɛ̃/ i 'vin'."

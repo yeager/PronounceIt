@@ -28,36 +28,33 @@ class FeedbackGenerator:
         # Spectral feedback
         if result.spectral_score < 60:
             parts.append(
-                _("Spektral analys visar att ljudet skiljer sig från referensen. "
-                  "Försök lyssna noga på referensen och imitera.")
+                _("Spectral analysis shows that the sound is different from the reference. Try to listen carefully to the reference and imitate.")
             )
         elif result.spectral_score < 80:
             parts.append(
-                _("Ljudet är nära referensen men kan förbättras. "
-                  "Fokusera på artikulationens precision.")
+                _("The sound is close to the reference but can be improved. Focus on the precision of articulation.")
             )
 
         # Pitch feedback
         if result.pitch_score < 50:
             parts.append(
-                _("Tonhöjdsmönstret avviker markant. "
-                  "Var uppmärksam på intonationen och betoningen.")
+                _("The pitch pattern differs markedly. Pay attention to intonation and stress.")
             )
         elif result.pitch_score < 70:
             parts.append(
-                _("Intonationen kan förbättras. "
+                _("Intonation can be improved. "
                   "Lyssna på melodin i referensuttalet.")
             )
 
         # Formant feedback
         if result.formant_score < 50:
             parts.append(
-                _("Vokalerna behöver justeras. "
+                _("The vowels need to be adjusted. "
                   "Kontrollera tungans och läpparnas position.")
             )
         elif result.formant_score < 70:
             parts.append(
-                _("Vokalerna är nära men kan finslipas. "
+                _("The vowels are close but can be refined. "
                   "Tänk på munöppning och tungposition.")
             )
 
@@ -101,9 +98,7 @@ class FeedbackGenerator:
         tips = []
         if category == "vowel" and result.formant_score < 70:
             tips.append(
-                _("Svenska har många vokaler. "
-                  "Tänk särskilt på skillnaden mellan lång och kort vokal, "
-                  "t.ex. 'hus' /hʉːs/ vs 'huss' /hɵs/.")
+                _("Swedish has many vowels. e.g. 'hus' /hʉːs/ vs 'huss' /hɵs/.")
             )
         if result.pitch_score < 60:
             tips.append(
