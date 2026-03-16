@@ -1,0 +1,9 @@
+pronounceit/application.py
+pronounceit/window.py
+pronounceit/ui/recording_view.py
+pronounceit/ui/spectrogram_view.py
+pronounceit/ui/pitch_view.py
+pronounceit/ui/feedback_view.py
+pronounceit/ui/word_browser_view.py
+pronounceit/ui/progress_view.py
+pronounceit/scoring/feedback.py

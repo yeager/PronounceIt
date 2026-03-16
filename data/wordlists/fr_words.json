@@ -1,0 +1,16 @@
+[
+  {"text": "bonjour", "ipa": "bɔ̃ʒuʁ", "language": "fr", "category": "phrase", "difficulty": 1, "notes": "Nasalvokal /ɔ̃/ och uvulär /ʁ/."},
+  {"text": "rue", "ipa": "ʁy", "language": "fr", "category": "vowel", "difficulty": 2, "notes": "Rundad hög främre vokal /y/."},
+  {"text": "roue", "ipa": "ʁu", "language": "fr", "category": "minimal_pair", "difficulty": 2, "notes": "Minimalt par med 'rue'. /u/ vs /y/."},
+  {"text": "dans", "ipa": "dɑ̃s", "language": "fr", "category": "vowel", "difficulty": 2, "notes": "Nasalvokal /ɑ̃/."},
+  {"text": "vin", "ipa": "vɛ̃", "language": "fr", "category": "vowel", "difficulty": 2, "notes": "Nasalvokal /ɛ̃/."},
+  {"text": "brun", "ipa": "bʁœ̃", "language": "fr", "category": "vowel", "difficulty": 3, "notes": "Nasalvokal /œ̃/, sällsynt i modern franska."},
+  {"text": "chat", "ipa": "ʃa", "language": "fr", "category": "consonant", "difficulty": 1, "notes": "Postalveolar fricativ /ʃ/."},
+  {"text": "je", "ipa": "ʒə", "language": "fr", "category": "consonant", "difficulty": 1, "notes": "Tonande postalveolar /ʒ/."},
+  {"text": "grenouille", "ipa": "ɡʁənuj", "language": "fr", "category": "phrase", "difficulty": 4, "notes": "Palatal approximant /j/ och uvulär /ʁ/."},
+  {"text": "merci beaucoup", "ipa": "mɛʁsi boku", "language": "fr", "category": "phrase", "difficulty": 2, "notes": "Artig tackning. Notera uvulär /ʁ/."},
+  {"text": "au revoir", "ipa": "oʁ(ə)vwaʁ", "language": "fr", "category": "phrase", "difficulty": 2, "notes": "Halvvokal /w/ i 'voir'."},
+  {"text": "comment allez-vous", "ipa": "kɔmɑ̃ tale vu", "language": "fr", "category": "phrase", "difficulty": 3, "notes": "Formell fråga. Nasalvokal + liaison."},
+  {"text": "croissant", "ipa": "kʁwasɑ̃", "language": "fr", "category": "phrase", "difficulty": 3, "notes": "Halvvokal /w/ och nasalvokal /ɑ̃/."},
+  {"text": "écureuil", "ipa": "ekyʁœj", "language": "fr", "category": "phrase", "difficulty": 5, "notes": "Mycket svårt. Flera rundade vokaler."}
+]

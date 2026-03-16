@@ -1,0 +1,241 @@
+# Swedish translations for PronounceIt
+# Copyright (C) 2026 PronounceIt Team
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PronounceIt 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 00:00+0100\n"
+"PO-Revision-Date: 2026-03-16 00:00+0100\n"
+"Last-Translator: PronounceIt Team\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pronounceit/application.py
+msgid "Uttalsträning för alla språk med visuell feedback och spektrogram"
+msgstr "Uttalsträning för alla språk med visuell feedback och spektrogram"
+
+#: pronounceit/application.py
+msgid "Om PronounceIt"
+msgstr "Om PronounceIt"
+
+#: pronounceit/application.py
+msgid "Avsluta"
+msgstr "Avsluta"
+
+#: pronounceit/window.py
+msgid "Välj ett ord från ordlistan"
+msgstr "Välj ett ord från ordlistan"
+
+#: pronounceit/window.py
+msgid "Ordlista"
+msgstr "Ordlista"
+
+#: pronounceit/window.py
+msgid "Framsteg"
+msgstr "Framsteg"
+
+#: pronounceit/window.py
+msgid "Övning"
+msgstr "Övning"
+
+#: pronounceit/window.py
+msgid "Din inspelning"
+msgstr "Din inspelning"
+
+#: pronounceit/ui/recording_view.py
+msgid "Spela in"
+msgstr "Spela in"
+
+#: pronounceit/ui/recording_view.py
+msgid "Stoppa"
+msgstr "Stoppa"
+
+#: pronounceit/ui/recording_view.py
+msgid "Tryck på 'Spela in' för att börja"
+msgstr "Tryck på 'Spela in' för att börja"
+
+#: pronounceit/ui/recording_view.py
+msgid "Spelar in..."
+msgstr "Spelar in..."
+
+#: pronounceit/ui/recording_view.py
+msgid "Inspelning klar! Analyserar..."
+msgstr "Inspelning klar! Analyserar..."
+
+#: pronounceit/ui/spectrogram_view.py
+msgid "Referens"
+msgstr "Referens"
+
+#: pronounceit/ui/spectrogram_view.py
+msgid "Tid (s)"
+msgstr "Tid (s)"
+
+#: pronounceit/ui/spectrogram_view.py
+msgid "Frekvens (Hz)"
+msgstr "Frekvens (Hz)"
+
+#: pronounceit/ui/pitch_view.py
+msgid "Tonhöjdskontur (F0)"
+msgstr "Tonhöjdskontur (F0)"
+
+#: pronounceit/ui/pitch_view.py
+msgid "Hz"
+msgstr "Hz"
+
+#: pronounceit/ui/feedback_view.py
+msgid "Spektral"
+msgstr "Spektral"
+
+#: pronounceit/ui/feedback_view.py
+msgid "Tonhöjd"
+msgstr "Tonhöjd"
+
+#: pronounceit/ui/feedback_view.py
+msgid "Formant"
+msgstr "Formant"
+
+#: pronounceit/ui/word_browser_view.py
+msgid "Språk:"
+msgstr "Språk:"
+
+#: pronounceit/ui/word_browser_view.py
+msgid "Svårighetsgrad:"
+msgstr "Svårighetsgrad:"
+
+#: pronounceit/ui/word_browser_view.py
+msgid "Alla"
+msgstr "Alla"
+
+#: pronounceit/ui/word_browser_view.py
+msgid "Lätt"
+msgstr "Lätt"
+
+#: pronounceit/ui/word_browser_view.py
+msgid "Medel"
+msgstr "Medel"
+
+#: pronounceit/ui/word_browser_view.py
+msgid "Svår"
+msgstr "Svår"
+
+#: pronounceit/ui/word_browser_view.py
+msgid "Sök ord..."
+msgstr "Sök ord..."
+
+#: pronounceit/ui/progress_view.py
+msgid "Din framsteg"
+msgstr "Din framsteg"
+
+#: pronounceit/ui/progress_view.py
+msgid "Övningar: 0"
+msgstr "Övningar: 0"
+
+#: pronounceit/ui/progress_view.py
+msgid "Övningar: {}"
+msgstr "Övningar: {}"
+
+#: pronounceit/ui/progress_view.py
+msgid "Genomsnitt: --"
+msgstr "Genomsnitt: --"
+
+#: pronounceit/ui/progress_view.py
+msgid "Genomsnitt: {:.0f}"
+msgstr "Genomsnitt: {:.0f}"
+
+#: pronounceit/ui/progress_view.py
+msgid "Bästa: --"
+msgstr "Bästa: --"
+
+#: pronounceit/ui/progress_view.py
+msgid "Bästa: {:.0f}"
+msgstr "Bästa: {:.0f}"
+
+#: pronounceit/ui/progress_view.py
+msgid "Poäng över tid"
+msgstr "Poäng över tid"
+
+#: pronounceit/ui/progress_view.py
+msgid "Övning #"
+msgstr "Övning #"
+
+#: pronounceit/ui/progress_view.py
+msgid "Poäng"
+msgstr "Poäng"
+
+#: pronounceit/ui/progress_view.py
+msgid "Trend"
+msgstr "Trend"
+
+#: pronounceit/ui/progress_view.py
+msgid "Genomsnitt per språk"
+msgstr "Genomsnitt per språk"
+
+#: pronounceit/ui/progress_view.py
+msgid "Uppdatera"
+msgstr "Uppdatera"
+
+#: pronounceit/scoring/feedback.py
+msgid "Utmärkt! Ditt uttal är mycket nära referensen. Bra jobbat!"
+msgstr "Utmärkt! Ditt uttal är mycket nära referensen. Bra jobbat!"
+
+#: pronounceit/scoring/feedback.py
+msgid "Bra uttal! Några små justeringar kan göra det ännu bättre."
+msgstr "Bra uttal! Några små justeringar kan göra det ännu bättre."
+
+#: pronounceit/scoring/feedback.py
+msgid "Godkänt uttal. Fortsätt öva för att förbättra precisionen."
+msgstr "Godkänt uttal. Fortsätt öva för att förbättra precisionen."
+
+#: pronounceit/scoring/feedback.py
+msgid "Uttalet behöver mer övning. Lyssna noga på referensen och försök igen."
+msgstr "Uttalet behöver mer övning. Lyssna noga på referensen och försök igen."
+
+#: pronounceit/scoring/feedback.py
+msgid "Försök igen! Lyssna på referensen och fokusera på ett ljud i taget."
+msgstr "Försök igen! Lyssna på referensen och fokusera på ett ljud i taget."
+
+#: pronounceit/scoring/feedback.py
+msgid "Spektral analys visar att ljudet skiljer sig från referensen. Försök lyssna noga på referensen och imitera."
+msgstr "Spektral analys visar att ljudet skiljer sig från referensen. Försök lyssna noga på referensen och imitera."
+
+#: pronounceit/scoring/feedback.py
+msgid "Ljudet är nära referensen men kan förbättras. Fokusera på artikulationens precision."
+msgstr "Ljudet är nära referensen men kan förbättras. Fokusera på artikulationens precision."
+
+#: pronounceit/scoring/feedback.py
+msgid "Tonhöjdsmönstret avviker markant. Var uppmärksam på intonationen och betoningen."
+msgstr "Tonhöjdsmönstret avviker markant. Var uppmärksam på intonationen och betoningen."
+
+#: pronounceit/scoring/feedback.py
+msgid "Intonationen kan förbättras. Lyssna på melodin i referensuttalet."
+msgstr "Intonationen kan förbättras. Lyssna på melodin i referensuttalet."
+
+#: pronounceit/scoring/feedback.py
+msgid "Vokalerna behöver justeras. Kontrollera tungans och läpparnas position."
+msgstr "Vokalerna behöver justeras. Kontrollera tungans och läpparnas position."
+
+#: pronounceit/scoring/feedback.py
+msgid "Vokalerna är nära men kan finslipas. Tänk på munöppning och tungposition."
+msgstr "Vokalerna är nära men kan finslipas. Tänk på munöppning och tungposition."
+
+#: pronounceit/scoring/feedback.py
+msgid "Svenska har många vokaler. Tänk särskilt på skillnaden mellan lång och kort vokal, t.ex. 'hus' /hʉːs/ vs 'huss' /hɵs/."
+msgstr "Svenska har många vokaler. Tänk särskilt på skillnaden mellan lång och kort vokal, t.ex. 'hus' /hʉːs/ vs 'huss' /hɵs/."
+
+#: pronounceit/scoring/feedback.py
+msgid "Svenskan har ordaccenter (accent 1 och accent 2). Tonhöjdsmönstret är viktigt för ordets betydelse."
+msgstr "Svenskan har ordaccenter (accent 1 och accent 2). Tonhöjdsmönstret är viktigt för ordets betydelse."
+
+#: pronounceit/scoring/feedback.py
+msgid "Tyska vokaler har tydlig skillnad mellan spända och ospända. T.ex. /iː/ i 'Miete' vs /ɪ/ i 'Mitte'."
+msgstr "Tyska vokaler har tydlig skillnad mellan spända och ospända. T.ex. /iː/ i 'Miete' vs /ɪ/ i 'Mitte'."
+
+#: pronounceit/scoring/feedback.py
+msgid "Franska nasalvokaler kräver att luft släpps genom näsan. Öva med /ɑ̃/ i 'dans' och /ɛ̃/ i 'vin'."
+msgstr "Franska nasalvokaler kräver att luft släpps genom näsan. Öva med /ɑ̃/ i 'dans' och /ɛ̃/ i 'vin'."

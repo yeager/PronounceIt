@@ -1,0 +1,17 @@
+[
+  {"text": "the", "ipa": "ðə", "language": "en", "category": "consonant", "difficulty": 2, "notes": "Dental fricative /ð/. Placera tungan mellan tänderna."},
+  {"text": "think", "ipa": "θɪŋk", "language": "en", "category": "consonant", "difficulty": 2, "notes": "Tonlös dental fricativ /θ/."},
+  {"text": "this", "ipa": "ðɪs", "language": "en", "category": "consonant", "difficulty": 2, "notes": "Tonande dental fricativ /ð/."},
+  {"text": "ship", "ipa": "ʃɪp", "language": "en", "category": "consonant", "difficulty": 1, "notes": "Postalveolar fricativ /ʃ/."},
+  {"text": "chip", "ipa": "tʃɪp", "language": "en", "category": "consonant", "difficulty": 1, "notes": "Affrikata /tʃ/. Minimalt par med 'ship'."},
+  {"text": "cat", "ipa": "kæt", "language": "en", "category": "vowel", "difficulty": 1, "notes": "Öppen främre vokal /æ/."},
+  {"text": "cut", "ipa": "kʌt", "language": "en", "category": "vowel", "difficulty": 1, "notes": "Mitten central vokal /ʌ/."},
+  {"text": "caught", "ipa": "kɔːt", "language": "en", "category": "vowel", "difficulty": 2, "notes": "Rundad bakre vokal /ɔː/."},
+  {"text": "heart", "ipa": "hɑːrt", "language": "en", "category": "vowel", "difficulty": 1, "notes": "Lång öppen vokal /ɑː/."},
+  {"text": "bird", "ipa": "bɜːrd", "language": "en", "category": "vowel", "difficulty": 2, "notes": "Central vokal /ɜː/ med r-färgning."},
+  {"text": "bed", "ipa": "bɛd", "language": "en", "category": "vowel", "difficulty": 1, "notes": "Halvöppen främre vokal /ɛ/."},
+  {"text": "bad", "ipa": "bæd", "language": "en", "category": "minimal_pair", "difficulty": 2, "notes": "Minimalt par med 'bed'. Notera /æ/ vs /ɛ/."},
+  {"text": "hello", "ipa": "həˈloʊ", "language": "en", "category": "phrase", "difficulty": 1, "notes": "Betoning på andra stavelsen."},
+  {"text": "how are you", "ipa": "haʊ ɑːr juː", "language": "en", "category": "phrase", "difficulty": 2, "notes": "Diftong /aʊ/."},
+  {"text": "beautiful", "ipa": "ˈbjuːtɪfəl", "language": "en", "category": "phrase", "difficulty": 3, "notes": "Tre stavelser med reducerad vokal."}
+]

@@ -1,0 +1,16 @@
+[
+  {"text": "Buch", "ipa": "buːx", "language": "de", "category": "consonant", "difficulty": 2, "notes": "Ach-Laut /x/ efter bakre vokal."},
+  {"text": "ich", "ipa": "ɪç", "language": "de", "category": "consonant", "difficulty": 2, "notes": "Ich-Laut /ç/ efter främre vokal."},
+  {"text": "Küche", "ipa": "ˈkʏçə", "language": "de", "category": "consonant", "difficulty": 3, "notes": "Ich-Laut med rundad vokal /ʏ/."},
+  {"text": "Straße", "ipa": "ˈʃtʁaːsə", "language": "de", "category": "consonant", "difficulty": 2, "notes": "/ʃt/ i ordets början."},
+  {"text": "rot", "ipa": "ʁoːt", "language": "de", "category": "consonant", "difficulty": 2, "notes": "Uvular /ʁ/."},
+  {"text": "Brötchen", "ipa": "ˈbʁøːtçən", "language": "de", "category": "phrase", "difficulty": 3, "notes": "Rundad främre vokal /øː/ med ich-Laut."},
+  {"text": "über", "ipa": "ˈyːbɐ", "language": "de", "category": "vowel", "difficulty": 2, "notes": "Rundad hög främre vokal /yː/."},
+  {"text": "Mütter", "ipa": "ˈmʏtɐ", "language": "de", "category": "vowel", "difficulty": 2, "notes": "Kort rundad /ʏ/."},
+  {"text": "schön", "ipa": "ʃøːn", "language": "de", "category": "vowel", "difficulty": 2, "notes": "Lång rundad främre /øː/."},
+  {"text": "Miete", "ipa": "ˈmiːtə", "language": "de", "category": "minimal_pair", "difficulty": 2, "notes": "Lång spänd /iː/ vs kort /ɪ/ i 'Mitte'."},
+  {"text": "Mitte", "ipa": "ˈmɪtə", "language": "de", "category": "minimal_pair", "difficulty": 2, "notes": "Kort ospänd /ɪ/."},
+  {"text": "guten Morgen", "ipa": "ˈɡuːtn̩ ˈmɔʁɡn̩", "language": "de", "category": "phrase", "difficulty": 2, "notes": "Vanlig morgonhälsning."},
+  {"text": "Eichhörnchen", "ipa": "ˈaɪçˌhœʁnçən", "language": "de", "category": "phrase", "difficulty": 5, "notes": "Klassiskt svårt tyskt ord. Diftong + ich-Laut."},
+  {"text": "Streichholzschächtelchen", "ipa": "ˈʃtʁaɪçhɔltsʃɛçtl̩çən", "language": "de", "category": "phrase", "difficulty": 5, "notes": "Extremt svårt sammansatt ord."}
+]

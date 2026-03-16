@@ -1,0 +1,22 @@
+[
+  {"text": "hus", "ipa": "hʉːs", "language": "sv", "category": "vowel", "difficulty": 1, "notes": "Lång /ʉː/ vokal. Runda läpparna och placera tungan högt."},
+  {"text": "hund", "ipa": "hɵnd", "language": "sv", "category": "vowel", "difficulty": 1, "notes": "Kort /ɵ/ vokal."},
+  {"text": "sjö", "ipa": "ɧøː", "language": "sv", "category": "consonant", "difficulty": 3, "notes": "Sje-ljud /ɧ/ är unikt för svenska."},
+  {"text": "sju", "ipa": "ɧʉː", "language": "sv", "category": "consonant", "difficulty": 3, "notes": "Sje-ljud + rundad hög vokal."},
+  {"text": "kök", "ipa": "ɕøːk", "language": "sv", "category": "consonant", "difficulty": 2, "notes": "Tje-ljud /ɕ/ före främre vokal."},
+  {"text": "köpa", "ipa": "ɕøːpa", "language": "sv", "category": "consonant", "difficulty": 2, "notes": "Tje-ljud i ordets början."},
+  {"text": "ål", "ipa": "oːl", "language": "sv", "category": "vowel", "difficulty": 1, "notes": "Lång /oː/ vokal."},
+  {"text": "öl", "ipa": "øːl", "language": "sv", "category": "vowel", "difficulty": 2, "notes": "Rundad främre vokal /øː/."},
+  {"text": "bar", "ipa": "bɑːr", "language": "sv", "category": "vowel", "difficulty": 1, "notes": "Lång /ɑː/ vokal."},
+  {"text": "bär", "ipa": "bɛːr", "language": "sv", "category": "vowel", "difficulty": 2, "notes": "Lång /ɛː/ vokal. Minimalt par med 'bar'."},
+  {"text": "bur", "ipa": "bʉːr", "language": "sv", "category": "vowel", "difficulty": 2, "notes": "Lång /ʉː/ vokal."},
+  {"text": "bör", "ipa": "børː", "language": "sv", "category": "vowel", "difficulty": 2, "notes": "Rundad främre vokal."},
+  {"text": "stuga", "ipa": "stʉːɡa", "language": "sv", "category": "phrase", "difficulty": 2, "notes": "Accent 2 (grav accent)."},
+  {"text": "anden", "ipa": "ˈandɛn", "language": "sv", "category": "minimal_pair", "difficulty": 3, "notes": "Accent 1 = anka, Accent 2 = ande. Tonhöjdsmönstret avgör betydelsen."},
+  {"text": "tomten", "ipa": "ˈtɔmtɛn", "language": "sv", "category": "minimal_pair", "difficulty": 3, "notes": "Accent 1 = tomtmark, Accent 2 = julfigur."},
+  {"text": "god morgon", "ipa": "ɡuːd ˈmɔrɡɔn", "language": "sv", "category": "phrase", "difficulty": 1, "notes": "Vanlig hälsningsfras."},
+  {"text": "tack så mycket", "ipa": "tak soː ˈmʏkːɛt", "language": "sv", "category": "phrase", "difficulty": 2, "notes": "Artig tackning."},
+  {"text": "hur mår du", "ipa": "hʉːr moːr dʉː", "language": "sv", "category": "phrase", "difficulty": 2, "notes": "Vanlig fråga."},
+  {"text": "skärgård", "ipa": "ɧæːrɡoːrd", "language": "sv", "category": "phrase", "difficulty": 4, "notes": "Kombination av sje-ljud och lång vokal."},
+  {"text": "tjugofyra", "ipa": "ɕʉːɡɔfyːra", "language": "sv", "category": "phrase", "difficulty": 4, "notes": "Tje-ljud och flera vokalkontraster."}
+]

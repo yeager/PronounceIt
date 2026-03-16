@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>se.pronounceit.PronounceIt</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>PronounceIt</name>
+  <name xml:lang="sv">PronounceIt</name>
+  <summary>Pronunciation training with visual feedback</summary>
+  <summary xml:lang="sv">Uttalsträning med visuell feedback</summary>
+  <description>
+    <p>
+      PronounceIt is a pronunciation training application that provides
+      visual feedback through spectrograms and pitch contours. It supports
+      Swedish, English, German, and French pronunciation training.
+    </p>
+    <p xml:lang="sv">
+      PronounceIt är en uttalsträningsapplikation som ger visuell
+      feedback genom spektrogram och tonhöjdskonturer. Den stöder
+      uttalsträning för svenska, engelska, tyska och franska.
+    </p>
+  </description>
+  <categories>
+    <category>Education</category>
+    <category>Audio</category>
+  </categories>
+  <url type="homepage">https://github.com/yeager/PronounceIt</url>
+  <url type="bugtracker">https://github.com/yeager/PronounceIt/issues</url>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.1.0" date="2026-03-16">
+      <description>
+        <p>Initial release with support for Swedish, English, German, and French.</p>
+      </description>
+    </release>
+  </releases>
+</component>
