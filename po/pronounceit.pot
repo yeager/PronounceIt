@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pronounceit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:52+0100\n"
+"POT-Creation-Date: 2026-03-16 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,41 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: pronounceit/window.py:66
+msgid "About PronounceIt"
+msgstr ""
+
+#: pronounceit/window.py:67
+msgid "Quit"
+msgstr ""
+
+#: pronounceit/window.py:83
+msgid "Ordlista"
+msgstr ""
+
+#: pronounceit/window.py:90
+msgid "Framsteg"
+msgstr ""
+
+#: pronounceit/window.py:104
+msgid "Select a word from the dictionary"
+msgstr ""
+
+#: pronounceit/window.py:129
+msgid "Exercise"
+msgstr ""
+
+#: pronounceit/window.py:161 pronounceit/ui/spectrogram_view.py:44
+#: pronounceit/ui/spectrogram_view.py:84 pronounceit/ui/pitch_view.py:71
+msgid "Din inspelning"
+msgstr ""
+
+#: pronounceit/application.py:53
+msgid ""
+"Pronunciation training for all languages with visual feedback and "
+"spectrograms"
+msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:56
 msgid "Language:"
@@ -59,11 +94,6 @@ msgstr ""
 #: pronounceit/ui/spectrogram_view.py:42 pronounceit/ui/spectrogram_view.py:46
 #: pronounceit/ui/spectrogram_view.py:64 pronounceit/ui/spectrogram_view.py:88
 msgid "Frekvens (Hz)"
-msgstr ""
-
-#: pronounceit/ui/spectrogram_view.py:44 pronounceit/ui/spectrogram_view.py:84
-#: pronounceit/ui/pitch_view.py:71 pronounceit/window.py:161
-msgid "Din inspelning"
 msgstr ""
 
 #: pronounceit/ui/pitch_view.py:32 pronounceit/ui/pitch_view.py:48
@@ -161,36 +191,6 @@ msgstr ""
 msgid "Average per language"
 msgstr ""
 
-#: pronounceit/window.py:66
-msgid "About PronounceIt"
-msgstr ""
-
-#: pronounceit/window.py:67
-msgid "Quit"
-msgstr ""
-
-#: pronounceit/window.py:83
-msgid "Ordlista"
-msgstr ""
-
-#: pronounceit/window.py:90
-msgid "Framsteg"
-msgstr ""
-
-#: pronounceit/window.py:104
-msgid "Select a word from the dictionary"
-msgstr ""
-
-#: pronounceit/window.py:129
-msgid "Exercise"
-msgstr ""
-
-#: pronounceit/application.py:53
-msgid ""
-"Pronunciation training for all languages with visual feedback and "
-"spectrograms"
-msgstr ""
-
 #: pronounceit/scoring/feedback.py:31
 msgid ""
 "Spectral analysis shows that the sound is different from the reference. Try "
@@ -216,12 +216,13 @@ msgstr ""
 
 #: pronounceit/scoring/feedback.py:52
 msgid ""
-"The vowels need to be adjusted. Kontrollera tungans och läpparnas position."
+"The vowels need to be adjusted. Check the position of your tongue and lips."
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:57
 msgid ""
-"The vowels are close but can be refined. Tänk på munöppning och tungposition."
+"The vowels are close but can be refined. Think about mouth opening and "
+"tongue position."
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:76
@@ -259,12 +260,12 @@ msgstr ""
 
 #: pronounceit/scoring/feedback.py:114
 msgid ""
-"Tyska vokaler har tydlig skillnad mellan spända och ospända. T.ex. /iː/ i "
-"'Miete' vs /ɪ/ i 'Mitte'."
+"German vowels have a clear distinction between tense and non-tense. T.ex. /"
+"iː/ i 'Miete' vs /ɪ/ i 'Mitte'."
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:123
 msgid ""
-"Franska nasalvokaler kräver att luft släpps genom näsan. Öva med /ɑ̃/ i "
-"'dans' och /ɛ̃/ i 'vin'."
+"French nasal vowels require air to be released through the nose. Öva med /ɑ̃/ "
+"i 'dans' och /ɛ̃/ i 'vin'."
 msgstr ""

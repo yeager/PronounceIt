@@ -211,3 +211,18 @@ msgstr "Intonationen kan förbättras. Lyssna på melodin i referensuttalet."
 
 msgid "The vowels need to be adjusted. Check the position of the tongue and lips."
 msgstr "Vokalerna behöver justeras. Kontrollera tungans och läpparnas position."
+
+msgid "Check the position of your tongue and lips."
+msgstr "Kontrollera tungans och läpparnas position."
+
+msgid "Think about mouth opening and tongue position."
+msgstr "Tänk på munöppning och tungposition."
+
+msgid "Swedish has word accents (accent 1 and accent 2). The pitch pattern is important for the meaning of the word."
+msgstr "Svenskan har ordaccenter (accent 1 och accent 2). Tonhöjdsmönstret är viktigt för ordets betydelse."
+
+msgid "German vowels have a clear distinction between tense and non-tense."
+msgstr "Tyska vokaler har tydlig skillnad mellan spända och ospända."
+
+msgid "French nasal vowels require air to be released through the nose."
+msgstr "Franska nasalvokaler kräver att luft släpps genom näsan."

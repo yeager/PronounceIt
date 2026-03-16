@@ -50,12 +50,12 @@ class FeedbackGenerator:
         if result.formant_score < 50:
             parts.append(
                 _("The vowels need to be adjusted. "
-                  "Kontrollera tungans och läpparnas position.")
+                  "Check the position of your tongue and lips.")
             )
         elif result.formant_score < 70:
             parts.append(
                 _("The vowels are close but can be refined. "
-                  "Tänk på munöppning och tungposition.")
+                  "Think about mouth opening and tongue position.")
             )
 
         # Language-specific tips
@@ -111,7 +111,7 @@ class FeedbackGenerator:
         """Tyska uttaltips."""
         if category == "vowel" and result.formant_score < 70:
             return _(
-                "Tyska vokaler har tydlig skillnad mellan spända och ospända. "
+                "German vowels have a clear distinction between tense and non-tense. "
                 "T.ex. /iː/ i 'Miete' vs /ɪ/ i 'Mitte'."
             )
         return None
@@ -120,7 +120,7 @@ class FeedbackGenerator:
         """Franska uttaltips."""
         if category == "vowel" and result.formant_score < 70:
             return _(
-                "Franska nasalvokaler kräver att luft släpps genom näsan. "
+                "French nasal vowels require air to be released through the nose. "
                 "Öva med /ɑ̃/ i 'dans' och /ɛ̃/ i 'vin'."
             )
         return None
