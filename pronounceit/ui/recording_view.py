@@ -58,7 +58,7 @@ class RecordingView(Gtk.Box):
         self.append(button_box)
 
         # Status label
-        self.status_label = Gtk.Label(label=_("Tryck på \'Spela in\' för att börja"))
+        self.status_label = Gtk.Label(label=_("Press \'Record\' to start"))
         self.status_label.add_css_class("dim-label")
         self.append(self.status_label)
 

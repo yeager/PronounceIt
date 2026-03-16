@@ -50,7 +50,7 @@ class PronounceItApp(Adw.Application):
             application_icon="audio-input-microphone-symbolic",
             developer_name="PronounceIt Team",
             version=__version__,
-            comments=_("Uttalsträning för alla språk med visuell feedback och spektrogram"),
+            comments=_("Pronunciation training for all languages with visual feedback and spectrograms"),
             license_type=Gio.License.MIT_X11,
         )
         about.present()

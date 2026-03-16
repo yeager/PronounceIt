@@ -76,15 +76,15 @@ class FeedbackGenerator:
     def _overall_feedback(self, total_score):
         """Generera övergripande bedömning."""
         if total_score >= 90:
-            return _("Utmärkt! Ditt uttal är mycket nära referensen. Well done!")
+            return _("Excellent! Your pronunciation is very close to the reference. Well done!")
         elif total_score >= 75:
-            return _("Bra uttal! Några små justeringar kan göra det ännu bättre.")
+            return _("Good pronunciation! A few small adjustments can make it even better.")
         elif total_score >= 60:
-            return _("Godkänt uttal. Fortsätt öva för att förbättra precisionen.")
+            return _("Approved pronunciation. Keep practicing to improve accuracy.")
         elif total_score >= 40:
-            return _("Uttalet behöver mer övning. Lyssna noga på referensen och försök igen.")
+            return _("Pronunciation needs more practice. Listen carefully to the reference and try again.")
         else:
-            return _("Försök igen! Lyssna på referensen och fokusera på ett ljud i taget.")
+            return _("Try it again! Listen to the reference and focus on one sound at a time.")
 
     def _language_specific_tip(self, language, category, result):
         """Generera språkspecifika tips."""

@@ -101,7 +101,7 @@ class MainWindow(Adw.ApplicationWindow):
         practice_box.set_margin_bottom(8)
 
         # Word display
-        self.word_label = Gtk.Label(label=_("Select ett ord från ordlistan"))
+        self.word_label = Gtk.Label(label=_("Select a word from the dictionary"))
         self.word_label.add_css_class("title-1")
         practice_box.append(self.word_label)
 
@@ -126,7 +126,7 @@ class MainWindow(Adw.ApplicationWindow):
         practice_box.append(self.feedback_view)
 
         self.stack.add_titled_with_icon(
-            practice_box, "practice", _("Övning"),
+            practice_box, "practice", _("Exercise"),
             "audio-input-microphone-symbolic"
         )
 

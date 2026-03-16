@@ -43,13 +43,13 @@ class ProgressView(Gtk.Box):
         stats_box.set_margin_top(8)
         stats_box.set_margin_bottom(8)
 
-        self.total_sessions = Gtk.Label(label=_("Övningar: 0"))
+        self.total_sessions = Gtk.Label(label=_("Exercises: 0"))
         stats_box.append(self.total_sessions)
 
         self.avg_score = Gtk.Label(label=_("Genomsnitt: --"))
         stats_box.append(self.avg_score)
 
-        self.best_score_label = Gtk.Label(label=_("Bästa: --"))
+        self.best_score_label = Gtk.Label(label=_("Best: --."))
         stats_box.append(self.best_score_label)
 
         self.append(stats_box)
@@ -86,20 +86,20 @@ class ProgressView(Gtk.Box):
         # Update stats
         if progress:
             scores = [p["score"] for p in progress]
-            self.total_sessions.set_label(_("Övningar: {}").format(len(scores)))
+            self.total_sessions.set_label(_("Exercises: {}").format(len(scores)))
             self.avg_score.set_label(_("Genomsnitt: {:.0f}").format(np.mean(scores)))
-            self.best_score_label.set_label(_("Bästa: {:.0f}").format(max(scores)))
+            self.best_score_label.set_label(_("Best: {:.0f}").format(max(scores)))
         else:
-            self.total_sessions.set_label(_("Övningar: 0"))
+            self.total_sessions.set_label(_("Exercises: 0"))
             self.avg_score.set_label(_("Genomsnitt: --"))
-            self.best_score_label.set_label(_("Bästa: --"))
+            self.best_score_label.set_label(_("Best: --."))
 
         # Progress over time chart
         self.ax_progress.clear()
         self.ax_progress.set_facecolor("#1e1e24")
-        self.ax_progress.set_title(_("Poäng över tid"), fontsize=10, color="white")
-        self.ax_progress.set_xlabel(_("Övning #"), fontsize=8, color="white")
-        self.ax_progress.set_ylabel(_("Poäng"), fontsize=8, color="white")
+        self.ax_progress.set_title(_("Points over time"), fontsize=10, color="white")
+        self.ax_progress.set_xlabel(_("Exercise #"), fontsize=8, color="white")
+        self.ax_progress.set_ylabel(_("Points"), fontsize=8, color="white")
         self.ax_progress.tick_params(colors="white", labelsize=7)
         self.ax_progress.set_ylim(0, 105)
 
@@ -121,8 +121,8 @@ class ProgressView(Gtk.Box):
         # Per-language chart
         self.ax_lang.clear()
         self.ax_lang.set_facecolor("#1e1e24")
-        self.ax_lang.set_title(_("Genomsnitt per språk"), fontsize=10, color="white")
-        self.ax_lang.set_ylabel(_("Poäng"), fontsize=8, color="white")
+        self.ax_lang.set_title(_("Average per language"), fontsize=10, color="white")
+        self.ax_lang.set_ylabel(_("Points"), fontsize=8, color="white")
         self.ax_lang.tick_params(colors="white", labelsize=7)
         self.ax_lang.set_ylim(0, 105)
 

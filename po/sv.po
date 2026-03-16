@@ -1,14 +1,83 @@
-# Swedish translation
-# Copyright (C) 2024
-# This file is distributed under the same license as the package.
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: pronounceit 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-03-16 12:00+0100\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Select a word from the dictionary"
+msgstr "Select ett ord från ordlistan"
+
+msgid "Exercise"
+msgstr "Övning"
+
+msgid "Pronunciation training for all languages with visual feedback and spectrograms"
+msgstr "Uttalsträning för alla språk med visuell feedback och spektrogram"
+
+msgid "Language:"
+msgstr "Språk:"
+
+msgid "Level of difficulty:"
+msgstr "Svårighetsgrad:"
+
+msgid "Lightweight"
+msgstr "Lätt"
+
+msgid "Difficult"
+msgstr "Svår"
+
+msgid "Pitch contour (F0)"
+msgstr "Tonhöjdskontur (F0)"
+
+msgid "Pitch"
+msgstr "Tonhöjd"
+
+msgid "Press \'Record\' to start"
+msgstr "Tryck på \'Spela in\' för att börja"
+
+msgid "Exercises: 0"
+msgstr "Övningar: 0"
+
+msgid "Best: --."
+msgstr "Bästa: --"
+
+msgid "Exercises: {}"
+msgstr "Övningar: {}"
+
+msgid "Best: {:.0f}"
+msgstr "Bästa: {:.0f}"
+
+msgid "Points over time"
+msgstr "Poäng över tid"
+
+msgid "Exercise #"
+msgstr "Övning #"
+
+msgid "Points"
+msgstr "Poäng"
+
+msgid "Average per language"
+msgstr "Genomsnitt per språk"
+
+msgid "Excellent! Your pronunciation is very close to the reference. Well done!"
+msgstr "Utmärkt! Ditt uttal är mycket nära referensen. Well done!"
+
+msgid "Good pronunciation! A few small adjustments can make it even better."
+msgstr "Bra uttal! Några små justeringar kan göra det ännu bättre."
+
+msgid "Approved pronunciation. Keep practicing to improve accuracy."
+msgstr "Godkänt uttal. Fortsätt öva för att förbättra precisionen."
+
+msgid "Pronunciation needs more practice. Listen carefully to the reference and try again."
+msgstr "Uttalet behöver mer övning. Lyssna noga på referensen och försök igen."
+
+msgid "Try it again! Listen to the reference and focus on one sound at a time."
+msgstr "Försök igen! Lyssna på referensen och fokusera på ett ljud i taget."
 
 msgid "Alla"
 msgstr "Alla"

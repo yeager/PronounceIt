@@ -53,7 +53,7 @@ class WordBrowserView(Gtk.Box):
         filter_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
 
         # Language selector
-        lang_label = Gtk.Label(label=_("Språk:"))
+        lang_label = Gtk.Label(label=_("Language:"))
         filter_box.append(lang_label)
 
         self.lang_dropdown = Gtk.DropDown.new_from_strings(
@@ -65,13 +65,13 @@ class WordBrowserView(Gtk.Box):
         filter_box.append(self.lang_dropdown)
 
         # Difficulty filter
-        diff_label = Gtk.Label(label=_("Svårighetsgrad:"))
+        diff_label = Gtk.Label(label=_("Level of difficulty:"))
         diff_label.set_margin_start(16)
         filter_box.append(diff_label)
 
         self.diff_dropdown = Gtk.DropDown.new_from_strings(
-            [_("Alla"), "1 - " + _("Lätt"), "2", "3 - " + _("Medel"),
-             "4", "5 - " + _("Svår")]
+            [_("Alla"), "1 - " + _("Lightweight"), "2", "3 - " + _("Medel"),
+             "4", "5 - " + _("Difficult")]
         )
         self.diff_dropdown.set_selected(0)
         self.diff_dropdown.connect("notify::selected", self._on_filter_changed)

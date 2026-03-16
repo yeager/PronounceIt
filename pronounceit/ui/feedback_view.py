@@ -34,7 +34,7 @@ class FeedbackView(Gtk.Box):
         self.spectral_bar = self._make_score_row(_("Spektral"))
         sub_box.append(self.spectral_bar)
 
-        self.pitch_bar = self._make_score_row(_("Tonhöjd"))
+        self.pitch_bar = self._make_score_row(_("Pitch"))
         sub_box.append(self.pitch_bar)
 
         self.formant_bar = self._make_score_row(_("Formant"))

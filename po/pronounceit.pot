@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PronounceIt package.
+# This file is distributed under the same license as the pronounceit package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PronounceIt 1.0\n"
+"Project-Id-Version: pronounceit 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:51+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,11 +34,11 @@ msgid "Framsteg"
 msgstr ""
 
 #: pronounceit/window.py:104
-msgid "Select ett ord från ordlistan"
+msgid "Select a word from the dictionary"
 msgstr ""
 
 #: pronounceit/window.py:129
-msgid "Övning"
+msgid "Exercise"
 msgstr ""
 
 #: pronounceit/window.py:161 pronounceit/ui/spectrogram_view.py:44
@@ -47,15 +47,17 @@ msgid "Din inspelning"
 msgstr ""
 
 #: pronounceit/application.py:53
-msgid "Uttalsträning för alla språk med visuell feedback och spektrogram"
+msgid ""
+"Pronunciation training for all languages with visual feedback and "
+"spectrograms"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:56
-msgid "Språk:"
+msgid "Language:"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:68
-msgid "Svårighetsgrad:"
+msgid "Level of difficulty:"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:73
@@ -63,7 +65,7 @@ msgid "Alla"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:73
-msgid "Lätt"
+msgid "Lightweight"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:73
@@ -71,7 +73,7 @@ msgid "Medel"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:74
-msgid "Svår"
+msgid "Difficult"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:82
@@ -95,7 +97,7 @@ msgid "Frekvens (Hz)"
 msgstr ""
 
 #: pronounceit/ui/pitch_view.py:32 pronounceit/ui/pitch_view.py:48
-msgid "Tonhöjdskontur (F0)"
+msgid "Pitch contour (F0)"
 msgstr ""
 
 #: pronounceit/ui/pitch_view.py:34 pronounceit/ui/pitch_view.py:50
@@ -107,7 +109,7 @@ msgid "Spektral"
 msgstr ""
 
 #: pronounceit/ui/feedback_view.py:37
-msgid "Tonhöjd"
+msgid "Pitch"
 msgstr ""
 
 #: pronounceit/ui/feedback_view.py:40
@@ -123,7 +125,7 @@ msgid "Stop"
 msgstr ""
 
 #: pronounceit/ui/recording_view.py:61
-msgid "Tryck på 'Spela in' för att börja"
+msgid "Press 'Record' to start"
 msgstr ""
 
 #: pronounceit/ui/recording_view.py:82
@@ -139,7 +141,7 @@ msgid "Din framsteg"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:46 pronounceit/ui/progress_view.py:93
-msgid "Övningar: 0"
+msgid "Exercises: 0"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:49 pronounceit/ui/progress_view.py:94
@@ -147,7 +149,7 @@ msgid "Genomsnitt: --"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:52 pronounceit/ui/progress_view.py:95
-msgid "Bästa: --"
+msgid "Best: --."
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:77
@@ -156,7 +158,7 @@ msgstr ""
 
 #: pronounceit/ui/progress_view.py:89
 #, python-brace-format
-msgid "Övningar: {}"
+msgid "Exercises: {}"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:90
@@ -166,19 +168,19 @@ msgstr ""
 
 #: pronounceit/ui/progress_view.py:91
 #, python-brace-format
-msgid "Bästa: {:.0f}"
+msgid "Best: {:.0f}"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:100
-msgid "Poäng över tid"
+msgid "Points over time"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:101
-msgid "Övning #"
+msgid "Exercise #"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:102 pronounceit/ui/progress_view.py:125
-msgid "Poäng"
+msgid "Points"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:117
@@ -186,7 +188,7 @@ msgid "Trend"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:124
-msgid "Genomsnitt per språk"
+msgid "Average per language"
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:31
@@ -221,23 +223,26 @@ msgid ""
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:79
-msgid "Utmärkt! Ditt uttal är mycket nära referensen. Well done!"
+msgid ""
+"Excellent! Your pronunciation is very close to the reference. Well done!"
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:81
-msgid "Bra uttal! Några små justeringar kan göra det ännu bättre."
+msgid "Good pronunciation! A few small adjustments can make it even better."
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:83
-msgid "Godkänt uttal. Fortsätt öva för att förbättra precisionen."
+msgid "Approved pronunciation. Keep practicing to improve accuracy."
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:85
-msgid "Uttalet behöver mer övning. Lyssna noga på referensen och försök igen."
+msgid ""
+"Pronunciation needs more practice. Listen carefully to the reference and try "
+"again."
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:87
-msgid "Försök igen! Lyssna på referensen och fokusera på ett ljud i taget."
+msgid "Try it again! Listen to the reference and focus on one sound at a time."
 msgstr ""
 
 #: pronounceit/scoring/feedback.py:104
