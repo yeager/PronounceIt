@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=PronounceIt
+Name[sv]=Uttala
+Comment=Pronunciation exercises
+Comment[sv]=Uttalsövningar
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m pronounceit
+Icon=pronounceit
+Terminal=false
+Type=Application
+Categories=Education;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
