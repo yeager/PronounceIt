@@ -121,6 +121,6 @@ class FeedbackGenerator:
         if category == "vowel" and result.formant_score < 70:
             return _(
                 "French nasal vowels require air to be released through the nose. "
-                "Öva med /ɑ̃/ i 'dans' och /ɛ̃/ i 'vin'."
+                "Practice with /ɑ̃/ in 'dans' och /ɛ̃/ i 'vin'."
             )
         return None
