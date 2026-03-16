@@ -70,7 +70,7 @@ class WordBrowserView(Gtk.Box):
         filter_box.append(diff_label)
 
         self.diff_dropdown = Gtk.DropDown.new_from_strings(
-            [_("Alla"), "1 - " + _("Lightweight"), "2", "3 - " + _("Medel"),
+            [_("All"), "1 - " + _("Lightweight"), "2", "3 - " + _("Medel"),
              "4", "5 - " + _("Difficult")]
         )
         self.diff_dropdown.set_selected(0)

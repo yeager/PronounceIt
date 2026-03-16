@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pronounceit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:54+0100\n"
+"POT-Creation-Date: 2026-03-16 19:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid "Level of difficulty:"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:73
-msgid "Alla"
+msgid "All"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:73
@@ -266,6 +266,6 @@ msgstr ""
 
 #: pronounceit/scoring/feedback.py:123
 msgid ""
-"French nasal vowels require air to be released through the nose. Öva med /ɑ̃/ "
-"i 'dans' och /ɛ̃/ i 'vin'."
+"French nasal vowels require air to be released through the nose. Practice "
+"with /ɑ̃/ in 'dans' och /ɛ̃/ i 'vin'."
 msgstr ""
