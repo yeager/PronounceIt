@@ -33,7 +33,7 @@ class ProgressView(Gtk.Box):
 
     def _build_ui(self):
         # Title
-        title = Gtk.Label(label=_("Din framsteg"))
+        title = Gtk.Label(label=_("Your progress"))
         title.add_css_class("title-2")
         self.append(title)
 

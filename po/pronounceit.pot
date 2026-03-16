@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pronounceit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 19:25+0100\n"
+"POT-Creation-Date: 2026-03-16 20:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,11 +26,11 @@ msgid "Quit"
 msgstr ""
 
 #: pronounceit/window.py:83
-msgid "Ordlista"
+msgid "Glossary of terms"
 msgstr ""
 
 #: pronounceit/window.py:90
-msgid "Framsteg"
+msgid "Progress"
 msgstr ""
 
 #: pronounceit/window.py:104
@@ -43,7 +43,7 @@ msgstr ""
 
 #: pronounceit/window.py:161 pronounceit/ui/spectrogram_view.py:44
 #: pronounceit/ui/spectrogram_view.py:84 pronounceit/ui/pitch_view.py:71
-msgid "Din inspelning"
+msgid "Your recording"
 msgstr ""
 
 #: pronounceit/application.py:53
@@ -69,7 +69,7 @@ msgid "Lightweight"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:73
-msgid "Medel"
+msgid "Means"
 msgstr ""
 
 #: pronounceit/ui/word_browser_view.py:74
@@ -133,11 +133,11 @@ msgid "Spelar in..."
 msgstr ""
 
 #: pronounceit/ui/recording_view.py:88
-msgid "Inspelning klar! Analyserar..."
+msgid "Recording ready! Analyzing..."
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:36
-msgid "Din framsteg"
+msgid "Your progress"
 msgstr ""
 
 #: pronounceit/ui/progress_view.py:46 pronounceit/ui/progress_view.py:93

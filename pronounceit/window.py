@@ -80,14 +80,14 @@ class MainWindow(Adw.ApplicationWindow):
         # Word list page
         self.word_browser = WordBrowserView(database=self.database)
         self.stack.add_titled_with_icon(
-            self.word_browser, "words", _("Ordlista"),
+            self.word_browser, "words", _("Glossary of terms"),
             "view-list-symbolic"
         )
 
         # Progress page
         self.progress_view = ProgressView(database=self.database)
         self.stack.add_titled_with_icon(
-            self.progress_view, "progress", _("Framsteg"),
+            self.progress_view, "progress", _("Progress"),
             "emblem-ok-symbolic"
         )
 
@@ -158,7 +158,7 @@ class MainWindow(Adw.ApplicationWindow):
 
         # Compute spectrogram
         user_spec = self.analyzer.compute(audio_data, sample_rate)
-        self.spectrogram_view.update_user(user_spec, _("Din inspelning"))
+        self.spectrogram_view.update_user(user_spec, _("Your recording"))
 
         # Pitch tracking
         user_pitch = self.pitch_tracker.extract(audio_data, sample_rate)

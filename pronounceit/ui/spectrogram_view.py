@@ -41,7 +41,7 @@ class SpectrogramView(Gtk.Box):
         self.ax_ref.set_xlabel(_("Time (s)"), fontsize=8)
         self.ax_ref.set_ylabel(_("Frekvens (Hz)"), fontsize=8)
 
-        self.ax_user.set_title(_("Din inspelning"), fontsize=10)
+        self.ax_user.set_title(_("Your recording"), fontsize=10)
         self.ax_user.set_xlabel(_("Time (s)"), fontsize=8)
         self.ax_user.set_ylabel(_("Frekvens (Hz)"), fontsize=8)
 
@@ -81,7 +81,7 @@ class SpectrogramView(Gtk.Box):
         self.ax_user.clear()
         self.ax_user.set_facecolor("#1e1e24")
         self.ax_user.set_title(
-            title or _("Din inspelning"),
+            title or _("Your recording"),
             fontsize=10, color="white",
         )
         self.ax_user.set_xlabel(_("Time (s)"), fontsize=8, color="white")

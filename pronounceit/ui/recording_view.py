@@ -85,7 +85,7 @@ class RecordingView(Gtk.Box):
         self._is_recording = False
         self.record_btn.set_sensitive(True)
         self.stop_btn.set_sensitive(False)
-        self.status_label.set_label(_("Inspelning klar! Analyserar..."))
+        self.status_label.set_label(_("Recording ready! Analyzing..."))
 
     def _on_chunk(self, recorder, chunk):
         # Keep a rolling buffer for waveform display
