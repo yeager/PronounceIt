@@ -56,7 +56,7 @@ class PitchView(Gtk.Box):
             times = pitch_result.times[voiced]
             freqs = pitch_result.frequencies[voiced]
             self.ax.plot(times, freqs, "o-", color="#4fc3f7", markersize=2,
-                         linewidth=1.5, label=_("Referens"), alpha=0.8)
+                         linewidth=1.5, label=_("Reference"), alpha=0.8)
             self.ax.legend(fontsize=7, facecolor="#2e2e34", labelcolor="white")
 
         self.canvas.draw_idle()

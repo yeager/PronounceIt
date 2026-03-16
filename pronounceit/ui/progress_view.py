@@ -46,10 +46,10 @@ class ProgressView(Gtk.Box):
         self.total_sessions = Gtk.Label(label=_("Exercises: 0"))
         stats_box.append(self.total_sessions)
 
-        self.avg_score = Gtk.Label(label=_("Genomsnitt: --"))
+        self.avg_score = Gtk.Label(label=_("Average: --"))
         stats_box.append(self.avg_score)
 
-        self.best_score_label = Gtk.Label(label=_("Best: --."))
+        self.best_score_label = Gtk.Label(label=_("Best: --"))
         stats_box.append(self.best_score_label)
 
         self.append(stats_box)
@@ -87,17 +87,17 @@ class ProgressView(Gtk.Box):
         if progress:
             scores = [p["score"] for p in progress]
             self.total_sessions.set_label(_("Exercises: {}").format(len(scores)))
-            self.avg_score.set_label(_("Genomsnitt: {:.0f}").format(np.mean(scores)))
+            self.avg_score.set_label(_("Average: {:.0f}").format(np.mean(scores)))
             self.best_score_label.set_label(_("Best: {:.0f}").format(max(scores)))
         else:
             self.total_sessions.set_label(_("Exercises: 0"))
-            self.avg_score.set_label(_("Genomsnitt: --"))
-            self.best_score_label.set_label(_("Best: --."))
+            self.avg_score.set_label(_("Average: --"))
+            self.best_score_label.set_label(_("Best: --"))
 
         # Progress over time chart
         self.ax_progress.clear()
         self.ax_progress.set_facecolor("#1e1e24")
-        self.ax_progress.set_title(_("Points over time"), fontsize=10, color="white")
+        self.ax_progress.set_title(_("Score over time"), fontsize=10, color="white")
         self.ax_progress.set_xlabel(_("Exercise #"), fontsize=8, color="white")
         self.ax_progress.set_ylabel(_("Points"), fontsize=8, color="white")
         self.ax_progress.tick_params(colors="white", labelsize=7)

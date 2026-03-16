@@ -70,7 +70,7 @@ class WordBrowserView(Gtk.Box):
         filter_box.append(diff_label)
 
         self.diff_dropdown = Gtk.DropDown.new_from_strings(
-            [_("All"), "1 - " + _("Lightweight"), "2", "3 - " + _("Means"),
+            [_("All"), "1 - " + _("Easy"), "2", "3 - " + _("Medium"),
              "4", "5 - " + _("Difficult")]
         )
         self.diff_dropdown.set_selected(0)
@@ -79,7 +79,7 @@ class WordBrowserView(Gtk.Box):
 
         # Search
         self.search_entry = Gtk.SearchEntry()
-        self.search_entry.set_placeholder_text(_("Search ord..."))
+        self.search_entry.set_placeholder_text(_("Search word..."))
         self.search_entry.set_hexpand(True)
         self.search_entry.connect("search-changed", self._on_search_changed)
         filter_box.append(self.search_entry)

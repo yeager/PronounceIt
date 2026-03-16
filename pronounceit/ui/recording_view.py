@@ -41,7 +41,7 @@ class RecordingView(Gtk.Box):
         )
 
         # Record button
-        self.record_btn = Gtk.Button(label=_("Spela in"))
+        self.record_btn = Gtk.Button(label=_("Record"))
         self.record_btn.add_css_class("suggested-action")
         self.record_btn.add_css_class("pill")
         self.record_btn.set_size_request(140, 48)
@@ -79,7 +79,7 @@ class RecordingView(Gtk.Box):
         self._is_recording = True
         self.record_btn.set_sensitive(False)
         self.stop_btn.set_sensitive(True)
-        self.status_label.set_label(_("Spelar in..."))
+        self.status_label.set_label(_("Recording..."))
 
     def _on_stopped(self, recorder):
         self._is_recording = False

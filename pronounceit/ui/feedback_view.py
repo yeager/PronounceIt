@@ -31,7 +31,7 @@ class FeedbackView(Gtk.Box):
         # Sub-scores
         sub_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
 
-        self.spectral_bar = self._make_score_row(_("Spektral"))
+        self.spectral_bar = self._make_score_row(_("Spectral"))
         sub_box.append(self.spectral_bar)
 
         self.pitch_bar = self._make_score_row(_("Pitch"))
