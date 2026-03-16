@@ -43,7 +43,7 @@ class FeedbackGenerator:
         elif result.pitch_score < 70:
             parts.append(
                 _("Intonation can be improved. "
-                  "Lyssna på melodin i referensuttalet.")
+                  "Listen to the melody in the reference pronunciation.")
             )
 
         # Formant feedback
