@@ -205,3 +205,9 @@ msgstr "Övningar: 0"
 msgid "Övningar: {}"
 msgstr "Övningar: {}"
 
+
+msgid "Intonation can be improved. Listen to the melody in the reference pronunciation."
+msgstr "Intonationen kan förbättras. Lyssna på melodin i referensuttalet."
+
+msgid "The vowels need to be adjusted. Check the position of the tongue and lips."
+msgstr "Vokalerna behöver justeras. Kontrollera tungans och läpparnas position."
